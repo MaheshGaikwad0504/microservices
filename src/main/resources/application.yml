@@ -1,0 +1,13 @@
+server:
+  port: 8098
+
+spring:
+  application:
+    name: student-service
+eureka:
+  client:
+     serviceUrl:
+       defaultZone: http://localhost:8861/eureka/
+    
+logging:
+  file: src/main/resources/log/students.log
